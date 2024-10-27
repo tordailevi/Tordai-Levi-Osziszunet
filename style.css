@@ -1,0 +1,335 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.menu1 a{
+    background-color: #7519b3;
+    box-shadow: 0 0 5px #7519b3, 0 0 25px #7519b3;
+    color:aliceblue
+}
+
+.menu1 a:hover{
+    box-shadow: 0 0 10px aliceblue, 0 0 50px aliceblue, 0 0 100px aliceblue, 0 0 200px aliceblue, 0 0 400px aliceblue;
+}
+
+#tarolo {
+    padding:10px;
+    margin:auto;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg, #750ab3, #000000, #250cb6, #ca0c0c);
+    background-size: 150%, 150%;
+    animation: color 10s ease-in-out infinite;
+}
+
+.fejlec{
+    padding-top: 15px;
+    color:aliceblue;
+    font-size: 45px;
+    font-family: fantasy;
+    text-align: center;
+    text-decoration: underline overline #7519b3;
+}
+
+.menu1 ul {
+    font-size: 25px;
+    text-align: center;
+    padding: 150px;
+    display: grid;
+    gap: 2px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style-type: none;
+    padding-bottom: 570px;
+}
+
+.lablec1{
+    text-align: center;
+    border: 2px solid antiquewhite;
+    border-radius: 75%;
+    color: aliceblue;
+    font-size: 25px;
+    font-family: fantasy;
+}
+
+.menu3 a{
+    border-radius: 20%;
+    background-color: rgba(20, 71, 211, 0.479);
+    box-shadow: 0 0 5px aliceblue, 0 0 25px aliceblue;
+    color:aliceblue
+}
+
+.menu3 a:hover{
+    box-shadow: 0 0 10px aliceblue, 0 0 50px aliceblue, 0 0 100px aliceblue, 0 0 200px aliceblue, 0 0 400px aliceblue;
+}
+
+#bodypop{
+    background-image: url(kepek/popsmokehatter.jpg);
+}
+
+.fejlec3{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color:aliceblue;
+    font-size: 45px;
+    font-family: fantasy;
+    text-align: center;
+    text-decoration: underline line-through aliceblue;
+}
+
+#popsmoke1{
+    margin: 15px;
+    box-shadow: 0 0 20px aliceblue, 0 0 50px aliceblue;
+    float: left;
+    max-width: 700px;
+    width:560px;
+    height:400px;
+}
+
+#popsmoke2 {
+    margin: 15px;
+    box-shadow: 0 0 20px aliceblue, 0 0 50px aliceblue;
+    width: 560px;
+    float: right;
+    max-width: 700px;
+    height: 400px;
+}
+
+.menu3 ul {
+    padding-top: 150px;
+    font-size: 25px;
+    text-align: center;
+    display: grid;
+    gap: 2px;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style-type: none;
+}
+
+.smoketext{
+    letter-spacing: 2px;
+    padding-top: 180px;
+    text-align: center;
+    color: rgb(252, 243, 243);
+    font-family: monospace;
+    font-size: 25px;
+}
+
+.smoketext2{
+    letter-spacing: 2px;
+    padding-top: 40px;
+    text-align: center;
+    color: rgb(252, 243, 243);
+    font-family: monospace;
+    font-size: 25px;
+}
+
+.menu4 a{
+    background-color: rgba(190, 27, 240, 0.829);
+    box-shadow: 0 0 5px aliceblue, 0 0 25px aliceblue;
+    color:aliceblue
+}
+.menu4 a:hover{
+    box-shadow: 0 0 10px aliceblue, 0 0 50px aliceblue, 0 0 100px aliceblue, 0 0 200px aliceblue, 0 0 400px aliceblue;
+}
+
+#bodyjuice{
+    background-image: url(kepek/juicebackground.jpg);
+}
+
+.fejlec4{
+    padding-top: 15px;
+    color:aliceblue;
+    font-size: 45px;
+    font-family: fantasy;
+    text-align: center;
+    text-decoration: underline double #7519b3;
+}
+
+#juice1{
+    padding-top: 20px;
+    padding-left: 15px;
+    float: left;
+    max-width: 700px;
+    width:560px;
+    height:400px;
+}
+
+#juice2{
+    padding-top: 20px;
+    padding-right: 15px;
+    width: 560px;
+    float: right;
+    max-width: 700px;
+    height:400px;
+}
+
+#juice3{
+    border-radius: 10%;
+    box-shadow: 0 0 20px aliceblue, 0 0 50px aliceblue;
+    padding: 30px;
+    display: block;
+    margin: auto;
+}
+
+.menu4 ul {
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    display: grid;
+    gap: 2px;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style-type: none;
+}
+
+.juiceszoveg{
+    letter-spacing: 2px;
+    box-shadow: 0 0 5px aliceblue, 0 0 25px aliceblue;
+    padding-top: 50px;
+    text-align: center;
+    color: rgb(252, 243, 243);
+    font-family: fantasy;
+    font-size: 17px;
+}
+
+.juiceszoveg2{
+    letter-spacing: 2px;
+    box-shadow: 0 0 5px aliceblue, 0 0 25px aliceblue;
+    padding-top: 25px;
+    text-align: center;
+    color: rgb(252, 243, 243);
+    font-family: fantasy;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.menu2 a{
+    border-radius: 10px;
+    border-style: double;
+    background-color: rgb(228, 13, 13);
+    box-shadow: 0 0 5px aliceblue, 0 0 25px aliceblue;
+    color:aliceblue
+}
+.menu2 a:hover{
+    box-shadow: 0 0 10px aliceblue, 0 0 50px aliceblue, 0 0 100px aliceblue, 0 0 200px aliceblue, 0 0 400px aliceblue;
+}
+
+#bodychoppa{
+    background-image: url(kepek/nlechoppabackground.jpg);
+}
+
+.fejlec2{
+    margin: 15px;
+    color:aliceblue;
+    font-size: 45px;
+    font-family: fantasy;
+    text-align: center;
+    text-decoration: underline overline dotted aliceblue;
+}
+
+#nlechoppa{
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 20px aliceblue, 0 0 50px aliceblue;
+    float: left;
+    max-width: 700px;
+    width:560px;
+    height:400px;
+}
+
+#nlechoppa2{
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 20px aliceblue, 0 0 50px aliceblue;
+    width: 560px;
+    float: right;
+    max-width: 700px;
+    height:400px;
+}
+
+.menu2 ul {
+    padding-top: 40px;
+    padding-bottom: 70px;
+    font-size: 25px;
+    text-align: center;
+    display: grid;
+    gap: 2px;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style-type: none;
+}
+
+.nletext{
+    letter-spacing: 2px;
+    padding-top: 330px;
+    text-align: center;
+    color: rgb(252, 243, 243);
+    font-family: fantasy;
+    font-size: 25px;
+}
+
+
+@media screen and (max-width:650px) {
+    #popsmokekepek{
+        grid-template-columns: 2fr;
+    }
+    #juicewrldkepek{
+        grid-template-columns: 2fr;
+    }
+    #nlechoppakepek{
+        grid-template-columns: 2fr;
+    }
+    .menu1 ul{
+        grid-template-columns: 2fr;
+    }
+    .menu2 ul{
+        grid-template-columns: 2fr;
+    }
+    .menu3 ul{
+        grid-template-columns: 2fr;
+    }
+    .menu4 ul{
+        grid-template-columns: 2fr;
+    }
+} 
+
+@media screen and (max-width:500px) {
+    #popsmokekepek{
+        grid-template-columns: 1fr;
+    }
+    #juicewrldkepek{
+        grid-template-columns: 1fr;
+    }
+    #nlechoppakepek{
+        grid-template-columns: 1fr;
+    }
+    .menu1 ul{
+        grid-template-columns: 1fr;
+    }
+    .menu2 ul{
+        grid-template-columns: 1fr;
+    }
+    .menu3 ul{
+        grid-template-columns: 1fr;
+    }
+    .menu4 ul{
+        grid-template-columns: 1fr;
+    }
+}
+
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+
+    }
+    50%{
+        background-position: 100% 50%;
+
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
