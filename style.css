@@ -39,7 +39,7 @@
     padding: 150px;
     display: grid;
     gap: 2px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     list-style-type: none;
     padding-bottom: 570px;
 }
@@ -112,7 +112,7 @@
     text-align: center;
     color: rgb(252, 243, 243);
     font-family: monospace;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .smoketext2{
@@ -121,7 +121,7 @@
     text-align: center;
     color: rgb(252, 243, 243);
     font-family: monospace;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .menu4 a{
@@ -141,7 +141,7 @@
     padding-top: 15px;
     color:aliceblue;
     font-size: 45px;
-    font-family: fantasy;
+    font-family: cursive;
     text-align: center;
     text-decoration: underline double #7519b3;
 }
@@ -188,7 +188,7 @@
     padding-top: 50px;
     text-align: center;
     color: rgb(252, 243, 243);
-    font-family: fantasy;
+    font-family: Verdana;
     font-size: 17px;
 }
 
@@ -198,7 +198,7 @@
     padding-top: 25px;
     text-align: center;
     color: rgb(252, 243, 243);
-    font-family: fantasy;
+    font-family: Verdana;
     font-size: 17px;
     margin-bottom: 20px;
 }
@@ -275,12 +275,15 @@
 @media screen and (max-width:650px) {
     #popsmokekepek{
         grid-template-columns: 2fr;
+        width:60%;
     }
     #juicewrldkepek{
         grid-template-columns: 2fr;
+        width:60%;
     }
     #nlechoppakepek{
         grid-template-columns: 2fr;
+        width:60%;
     }
     .menu1 ul{
         grid-template-columns: 2fr;
@@ -299,12 +302,15 @@
 @media screen and (max-width:500px) {
     #popsmokekepek{
         grid-template-columns: 1fr;
+        width:30%;
     }
     #juicewrldkepek{
         grid-template-columns: 1fr;
+        width:30%;
     }
     #nlechoppakepek{
         grid-template-columns: 1fr;
+        width:30%;
     }
     .menu1 ul{
         grid-template-columns: 1fr;
